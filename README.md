@@ -1,7 +1,7 @@
 # Hospital-Management-System
 The Hospital Management System is designed for hospitals, to replace their existing manual paper based system. The purpose of this system is to maintain the details of various patients,doctors,medicines and other details regarding the hospital. The system also generates a final bill for both the inpatients and outpatients.
 
-The system verifies user authentication and diaplays a menu that performs the following functions:
+The system verifies user authentication and displays a menu that performs the following functions:
 1. Insertion of inpatient details
 2. Insertion of outpatient details
 3. Generation of Bill

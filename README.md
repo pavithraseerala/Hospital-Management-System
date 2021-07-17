@@ -14,22 +14,35 @@ The program creates binary files that stores patient details, the medicines purc
   **Prototype:** char\* docname(char\*);
   
   This function returns the name of the doctor, according to the type of specialist the patient needs. The patient is allocated to the doctor, whose name is returned by the **docname(char\*)** function. 
+* **pharmacy(char\*)**
 
+  **Prototype:** int pharmacy(char\*);
+  
+  This function returns the cost of medicines purchased by the patient and the function is called during the generation of the bill.
+* **labdetail(char\*)**
 
+  **Prototype:** long labdetail(char\*);
+  
+  This function returns the cost of tests taken in the lab by the patient and the function is called during the generation of the bill.
+* **surgery(char\*)**
+
+  **Prototype:** long surgery(char\*);
+  
+  This function returns the cost of the surgery undergone by the patient and the function is called during the generation of the bill.
 ## Files Used in the Project
 * **inpatient.dat**
   
-  This binary file hold the details of all the inpatients.
+  This binary file holds the details of all the inpatients.
 * **outpatient.dat**
 
-  This binary file hold the details of all the outpatients.
+  This binary file holds the details of all the outpatients.
 * **pharmacy.dat**
 
-  This binary file hold the details of medicines purchased by all the patients.
+  This binary file holds the details of medicines purchased by all the patients.
 * **surgery.dat**
 
-  This binary file hold the details of surgeries undergone by all the patients.
+  This binary file holds the details of surgeries undergone by all the patients.
 * **lab.dat**
 
-  This binary file hold the details of all the tests taken in the lab by the patients.
+  This binary file holds the details of all the tests taken in the lab by the patients.
   
